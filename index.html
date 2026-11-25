@@ -3,52 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Portfolio</title>
+    <title>Delicious Pancake Recipe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h3>Jane Doe</h3>
-    <img src="5.webp" alt="Jane Doe" width="300" height="300" style="border-radius: 50%; object-fit: cover;">
-
-    <hr>
-
-    <a href="https://www.figma.com/design/r2dZgZTeHqhW8bZxEAHnbe/MyPortfolio?node-id=71-2&t=k7ol7KtTxeovjbjZ-1" target="_blank">My works</a>
-
-    <hr>
-
-    <h3>I am</h3>
-
-    <ul>
-        <li>awesome</li>
-        <li>smart</li>
-        <li>kind</li>
-
-    </ul>
-
-    <hr>
-
-    <table border="1">
-        <tr>
-            <th>Skill</th>
-            <th>Rating</th>
-        </tr>
-
-        <tr>
-            <td>Figma</td>
-            <td>&#9734; &#9734; &#9734; &#9734; &#9734;</td>
-        </tr>
-
-        <tr>
-            <td>HTML</td>
-            <td>&#9734; &#9734; &#9734; &#9734; &#9734;</td>
-        </tr>
-
-
-    </table>
-
-    <hr>
-
-    <p>&#169; 2024, Jane Doe</p>
-    
+    <main class="recipe">
+        <h1>Delicious Pancake Recipe</h1>
+        <div class="recipe-intro">
+            <img class="recipe-photo" src="pancakes.jpeg" width="1000"
+                 height="750" alt="Stack of pancakes with berries">
+            <section class="ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 cup flour</li>
+                    <li>1 tablespoon sugar</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>1/2 teaspoon salt</li>
+                    <li>1 cup milk</li>
+                    <li>1 egg</li>
+                    <li>2 tablespoons melted butter</li>
+                </ul>
+            </section>
+        </div>
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <p>Follow these simple steps to make delicious pancakes:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Step</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>In a large bowl, whisk together the flour, sugar, baking powder, and salt.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>In another bowl, mix the milk, egg, and melted butter.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Pour the wet ingredients into the dry ingredients and stir until just combined.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Heat a non-stick skillet over medium heat and lightly grease with butter or oil.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Pour 1/4 cup of batter onto the skillet for each pancake. Cook until bubbles form on the surface, then flip and cook until golden brown.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Serve warm with your favorite toppings.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>© 2024</footer>
+    </main>
 </body>
 </html>
